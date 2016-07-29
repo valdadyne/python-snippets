@@ -10,12 +10,12 @@ user_input=str(raw_input("Enter Gender\n").title())
 if user_input!="":
     with open('file.json')as json_data:
         data=json.load(json_data)
+        count = 0
         for r in (data['Users']):
             if (r['gender'] == user_input):
-                count=0
-                print (r['id'],str(r['first_name']),str(r['last_name']),str(r['email']))
-                for r['id']in r:
-                    count+=len(r)
+                print r['id'],str(r['first_name']),str(r['last_name']),str(r['email'])
+                count += 1
+
         print '\n'
         print 'The Number of '+user_input+' is',count
 else:
