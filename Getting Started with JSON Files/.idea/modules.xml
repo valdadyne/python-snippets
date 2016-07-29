@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Getting Started with JSON Files.iml" filepath="$PROJECT_DIR$/.idea/Getting Started with JSON Files.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/python-snippets/.idea/python-snippets.iml" filepath="$USER_HOME$/PycharmProjects/python-snippets/.idea/python-snippets.iml" />
     </modules>
   </component>
 </project>
