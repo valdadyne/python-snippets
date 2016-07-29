@@ -1,2 +1,2 @@
 # python-snippets
-Handy Python Scippets
+Handy Python Snippets for various tasks
