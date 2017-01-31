@@ -1,0 +1,9 @@
+def num_word(n):
+    
+    map_ = 'zero one two three four five six seven eight nine' .split('')
+    
+    for digit in str(n):
+        words += map_[int(digit)]
+    return words
+
+print num_word(9876)
